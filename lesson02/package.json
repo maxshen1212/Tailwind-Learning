@@ -1,0 +1,19 @@
+{
+  "name": "myweb3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx @tailwindcss/cli -i ./src/mytailwind.css -o ./css/tailwind.css --watch",
+    "dev:css": "tailwindcss -i ./src/mytailwind.css -o ./css/tailwind.css --watch",
+    "build:css": "NODE_ENV=production tailwindcss -i ./src/mytailwind.css -o ./css/tailwind.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.11",
+    "tailwindcss": "^4.1.11"
+  }
+}

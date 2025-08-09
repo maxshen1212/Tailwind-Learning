@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+/* 使用css語法，已經不是使用js語法 */
+@theme {
+  --text-maxbig: 10rem;
+  --font-poppins: Poppins, sans-serif;
+}

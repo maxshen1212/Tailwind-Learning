@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+@theme {
+  --text-maxbig: 10rem;
+  --font-poppins: Poppins, sans-serif;
+}
